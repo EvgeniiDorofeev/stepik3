@@ -17,8 +17,6 @@ def validate_all_kwargs_int_pos(func):
         for i in kwargs:
             if type(kwargs[i]) is int and kwargs[i]>0:
                 a = a + str(kwargs[i])
-            #elif type(i) is str:
-               # a = a + i
             else:
                 print('Все именованные аргументы должны быть положительными числами')
                 return

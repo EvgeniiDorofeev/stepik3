@@ -1,7 +1,6 @@
 def validate_all_args_str(func):
     a=''
     def func(*args, **kwargs):
-        #print(kwargs)
         nonlocal a
         for i in args:
             if type(i)==str:
