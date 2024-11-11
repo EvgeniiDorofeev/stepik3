@@ -22,9 +22,7 @@ def validate_all_kwargs_int_pos(func):
                 return
         return a
     return func
-
-
-
+#iuhuh
 @validate_all_args_str
 @validate_all_kwargs_int_pos
 def concatenate(*args, **kwargs):
